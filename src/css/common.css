@@ -40,3 +40,26 @@ a {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: greenyellow;
 }
+
+.timer{
+  display: flex;
+  margin-top: 20px;
+}
+
+.field + .field{
+  margin-left: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.field .value { 
+  font-size: 40px;
+}
+
+.field .label {
+  text-transform: uppercase;
+}
